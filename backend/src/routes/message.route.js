@@ -5,5 +5,5 @@ router.get("/send",(req,res) => {
     res.send("Send message endpoint");
 });
 
-export default Router;
+export default router;
 
