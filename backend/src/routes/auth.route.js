@@ -1,10 +1,10 @@
 //route file is use for the authentication
 import express from 'express'
-import { signup } from "../controllers/suth.controller.js"
+import { signup, login, logout } from "../controllers/auth.controller.js"
 
 const router = express.Router();
 
-router.post("signup" , signup);
+router.post("/signup" , signup);
 
 router.post('/login',login);
 
